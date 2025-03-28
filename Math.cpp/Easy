@@ -1,0 +1,14 @@
+// question -
+//soln-
+
+  class Solution {
+  public:
+    int countDivisibles(int A, int B, int M) {
+        // code here
+        int i,count=0;
+        for(i=A;i<=B;i++){
+            if(i%M==0) count++;
+        }
+         return count;
+    }
+};
