@@ -8,7 +8,7 @@ class Solution {
     vector<int> findTwoElement(vector<int>& arr) {
         // code here
         int i,m,n;
-        n = arr.size();
+        n = arr.size();  //size of array
         vector<int> res(2, 0);
         vector<int> hash(n + 1, 0); 
         for(i=0;i<n;i++){
